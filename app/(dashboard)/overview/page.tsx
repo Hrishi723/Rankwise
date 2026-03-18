@@ -109,6 +109,17 @@ export default function OverviewPage() {
           ))}
         </div>
       </div>
+
+      {/* Student app shortcut */}
+      <div className="mt-4 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl border border-blue-100 flex items-center justify-between">
+        <div>
+          <p className="text-sm font-medium text-blue-900">Student app</p>
+          <p className="text-xs text-blue-600 mt-0.5">View the student-facing dashboard, practice engine, and progress tracker</p>
+        </div>
+        <a href="/student/dashboard" className="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 flex-shrink-0">
+          Open app →
+        </a>
+      </div>
     </div>
   )
 }
